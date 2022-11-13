@@ -1,13 +1,27 @@
 POWER BI DATA ANALYSIS EXPRESSION (DAX)
 
 1. UNION('TABLE_1','TABLE_2') --> only when the columns are same. It removes duplicate values
+
 2. UNIONALL('TABLE_1','TABLE_2') --> only when the columns are same. It keeps duplicate value
+
 3. SUM('COL_1', 'COL_2') --> addition 
+
 4. COUNT('COL_1') -> counts the number of values in a column
+
 5. COUNTROWS('TABLE_NAME')--> counts number of rows in a table
+
 6. DISTINCTCOUNT('COL_1') --> distinct values in the column
+
 7. SUMX('TABLE','EXPRESSION')--> creates for all rows based on expression given
+
 8. WEEKDAY('DATE_COL',1/2/3) --> It will give us the day of the week
+
 9. IF('LOGICAL_TEST', 'RESULT_IF_TRUE', 'RESULT_IF_FALSE') --> If conditions are met it is true else it is false
+
 10. FIND('FIND_TEXT', 'WITHINTEXT','START_POSITION', 'NOT_FOUND_VALUE') --> It finds the text in the column and returns values which is stated. 
-   Start position is the one from where it starts.
+    Start position is the one from where it starts.
+   
+11. CALCULATE('EXPRESSION', 'FILTERS') --> evaluates a expression in context modified by filters
+ -- You can use IN clause also in calculate. Put your conditions inside { } --> Curly bracket 
+ 
+12. SWITCH('EXPRESSION', 'VALUE1', 'RESULT1', ...'[ELSE]') --> Returns different results based on expression
