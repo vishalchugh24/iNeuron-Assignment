@@ -25,3 +25,30 @@ POWER BI DATA ANALYSIS EXPRESSION (DAX)
  -- You can use IN clause also in calculate. Put your conditions inside { } --> Curly bracket 
  
 12. SWITCH('EXPRESSION', 'VALUE1', 'RESULT1', ...'[ELSE]') --> Returns different results based on expression
+13. CALENDAR('START_YEAR', 'END_YEAR') --> Calendar is used to define start year and end year
+
+14. CALENDARAUTO() --> It creates dates in one column calculated from model automatically
+
+15. DATE('YEAR', 'MONTH', 'Date') --> Date goes in year, month and date format
+
+16. FORMAT('VALUE','format' ) --> converts value to text in the specified number format
+
+17. ADDCOLUMNS('col1', 'col2'....'coln')---> adding column in table
+
+18. VAR --> is declared before every variable
+
+19. RETURN ---> Adds the following values in the table
+
+20. WEEKNUM('Date', 'Return Type')--> returns week number in table
+
+21. QUARTER('Date') --> Returns number from 1(Jan-Mar) to 4(Oct-Dec) representing the quarter
+
+22. YEAR('Date')--> Returns year as four digit integer
+
+23. NOW()--> Returns the current date and time in datetime format
+
+24. DATEDIFF('DATE1', 'DATE2', 'INTERVAL') --> Returns number of units(days, years) between two input dates
+
+25. EDATE('START DATE', MONTH) --> It gives before(use negative) or after(use positive) the date specified
+
+26. EOMONTH('START DATE', MONTH)--> It gives before(use negative) or after(use positive) the date specified
