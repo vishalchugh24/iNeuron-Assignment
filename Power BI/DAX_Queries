@@ -52,3 +52,8 @@ POWER BI DATA ANALYSIS EXPRESSION (DAX)
 25. EDATE('START DATE', MONTH) --> It gives before(use negative) or after(use positive) the date specified
 
 26. EOMONTH('START DATE', MONTH)--> It gives before(use negative) or after(use positive) the date specified
+
+27. SUMMARIZE(<table>, <group-By_columnName>[, <groupBy_column-Name>]…[, <name>, <expression>]…) --> Returns a summary table for the requested totals
+over a set of groups.
+
+28. FILTER()
